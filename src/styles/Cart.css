@@ -1,0 +1,114 @@
+/* src/styles/cart.css */
+
+.cart-section {
+    background-color: #f8f9fa; /* Light background color */
+    padding: 2rem 0; /* Padding around the section */
+  }
+  
+  .container {
+    max-width: 1200px; /* Maximum width for the container */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  h2 {
+    font-size: 2rem; /* Font size for the header */
+    font-weight: bold;
+    color: #333; /* Dark color for text */
+    margin-bottom: 1.5rem; /* Margin below the header */
+  }
+  
+  .card {
+    background-color: #fff; /* White background for cards */
+    border: 1px solid #ddd; /* Light border around cards */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    overflow: hidden; /* Ensure content doesn't overflow */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .card:hover {
+    transform: translateY(-5px); /* Slight lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+  }
+  
+  .card-img-top {
+    max-height: 200px; /* Limit height of images */
+    object-fit: cover; /* Ensure image covers the area */
+  }
+  
+  .card-body {
+    padding: 1rem; /* Padding inside card body */
+  }
+  
+  .card-title {
+    font-size: 1.25rem; /* Font size for item titles */
+    font-weight: bold;
+    color: #333; /* Dark color for text */
+    margin-bottom: 0.5rem; /* Margin below title */
+  }
+  
+  .card-text {
+    font-size: 1rem; /* Font size for descriptions */
+    color: #555; /* Medium color for text */
+  }
+  
+  .price {
+    font-size: 1.2rem; /* Font size for price */
+    color: #b12704; /* Color for pricing */
+    margin-bottom: 1rem; /* Margin below price */
+  }
+  
+  .btn {
+    border-radius: 4px; /* Rounded corners for buttons */
+    font-size: 0.875rem; /* Font size for buttons */
+    padding: 0.5rem 1rem; /* Padding inside buttons */
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  .btn-danger {
+    background-color: #e7e7e7; /* Light gray background for remove button */
+    border: 1px solid #ddd; /* Border color */
+    color: #333; /* Dark text color */
+    margin-bottom: .5rem;
+  }
+  
+  .btn-danger:hover {
+    background-color: #d4d4d4; /* Slightly darker gray on hover */
+  }
+  
+  .btn-success {
+    background-color: #007185; /* Blue background for buy button */
+    border: 1px solid #007185; /* Border color */
+    color: #fff; /* White text color */
+  }
+  
+  .btn-success:hover {
+    background-color: #005f73; /* Darker blue on hover */
+    border-color: #004b49;
+  }
+  
+  .btn-secondary {
+    background-color: #f0c14b; /* Yellow background for back to home button */
+    border-color: #a88734; /* Border color */
+    color: #111; /* Dark text color */
+  }
+  
+  .btn-secondary:hover {
+    background-color: #e2a33c; /* Darker yellow on hover */
+    border-color: #a88734;
+  }
+  
+  .text-center {
+    text-align: center; /* Center-align text */
+  }
+  
+  .mt-4 {
+    margin-top: 2rem; /* Margin-top spacing */
+  }
+  
+  @media (max-width: 768px) {
+    .card-img-top {
+      max-height: 150px; /* Adjust image height on smaller screens */
+    }
+  }
+  

@@ -1,0 +1,13 @@
+::-webkit-scrollbar{
+    width: 0px;
+}
+.navbar{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.active-link {
+    color: #17b81f !important; 
+    font-weight: bold;
+  }
+  

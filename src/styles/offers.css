@@ -1,0 +1,90 @@
+/* src/styles/offers.css */
+
+.offers-section {
+  background-color: #f8f9fa; /* Light background color for the section */
+  padding: 2rem 0; /* Add some padding to the section */
+}
+
+.offer-img {
+  max-height: 200px;
+  object-fit: cover;
+  border-radius: 4px; /* Add rounded corners to the image */
+  border: 1px solid #e0e0e0; /* Add a light border around images */
+}
+
+.card {
+  border: 1px solid #ddd; /* Light border for cards */
+  border-radius: 8px; /* Rounded corners for cards */
+  overflow: hidden; /* Ensure rounded corners are respected */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effect */
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+}
+
+.card-body {
+  padding: 1.5rem; /* Add padding to card content */
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem; /* Spacing below the title */
+}
+
+.card-text {
+  font-size: 0.9rem;
+  color: #555; /* Darker text color for readability */
+}
+
+.price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #b12704; /* Amazon's signature orange-red color for prices */
+  margin-bottom: 1rem; /* Spacing below the price */
+}
+
+.btn-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #f0c14b; /* Amazon-like yellow color */
+  border-color: #a88734; /* Darker yellow for border */
+  color: #111; /* Dark text color */
+}
+
+.btn-primary:hover {
+  background-color: #e2a33c; /* Darker yellow on hover */
+  border-color: #a88734;
+}
+
+.btn-success {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: #007185; /* Amazon-like blue color */
+  border-color: #007185; /* Consistent border color */
+  color: #fff;
+}
+
+.btn-success:hover {
+  background-color: #005f73; /* Darker blue on hover */
+  border-color: #004b49;
+}
+
+@media (max-width: 768px) {
+  .offer-img {
+    max-height: 150px;
+  }
+}
+
+@media (max-width: 576px) {
+  .offer-img {
+    max-height: 120px;
+  }
+}

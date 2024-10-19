@@ -1,0 +1,203 @@
+/* Global Styles */
+body {
+  background: linear-gradient(to bottom, #f0f4f8, #e0e6ed);
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern font */
+  color: #333;
+}
+
+/* Profile Container */
+.profile-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Profile Card */
+.profile-card {
+  background-color: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  width: 100%;
+  max-width: 600px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile Header */
+.profile-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 6px solid #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+/* Card Title and Text */
+.card-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin: 10px 0;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Profile Actions */
+.profile-actions {
+  display: flex;
+  justify-content: space-around; /* Distribute buttons evenly */
+  gap: 20px; /* Space between buttons */
+  margin-bottom: 30px; /* Space below buttons */
+}
+
+.profile-actions .btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 20px;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  text-transform: uppercase;
+  width: 100%; /* Full width for buttons */
+  max-width: 200px; /* Limit button width */
+}
+
+.profile-actions .btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+}
+
+.profile-actions .btn-primary:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-actions .btn-secondary {
+  background-color: #e0e0e0;
+  color: #333;
+  border: none;
+}
+
+.profile-actions .btn-secondary:hover {
+  background-color: #bdbdbd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Details */
+.profile-details {
+  margin-top: 20px;
+}
+
+.profile-details h5 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.profile-details .info-section {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 15px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, box-shadow 0.3s;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.profile-details .info-section:hover {
+  background-color: #f1f3f4;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-details .info-section span {
+  margin-left: 10px;
+  color: #555;
+  font-size: 1.1rem;
+}
+
+.profile-details .info-section .fa {
+  color: #007bff;
+  font-size: 1.5rem;
+}
+
+/* Media Queries for smaller devices */
+@media (max-width: 768px) {
+  .profile-card {
+      padding: 20px;
+  }
+
+  .profile-pic {
+      width: 140px;
+      height: 140px;
+  }
+
+  .card-title {
+      font-size: 1.6rem;
+  }
+
+  .profile-actions .btn {
+      font-size: 0.9rem;
+      max-width: none; /* Remove width limit on smaller screens */
+  }
+}
+
+/* User Not Logged In */
+.usernot {
+  color: #333;
+  width: 50%;
+  padding: 10rem 1rem;
+  margin: auto;
+  text-align: center;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+}
+
+.usernot h1 {
+  font-weight: 600;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 1rem;
+}
+.btn-secondary{
+ margin: 1rem;
+ text-align: center;
+}
+.btn-info{
+  margin: 1rem;
+  width: 75%;
+  padding-left: 0;
+  padding-right: 0;
+  
+
+}
+.btn-info:hover{
+  background-color: #007bff;
+  color: #f7f5f5;
+  font-weight: 900;
+  width: 73%;
+  box-shadow: -1px -1px 3px grey;
+}

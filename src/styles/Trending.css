@@ -1,0 +1,73 @@
+/* src/styles/Trending.css */
+
+.trending-container {
+    font-family: Arial, sans-serif;
+    background-color: #918e8e; /* Light gray background for the entire section */
+    padding: 40px 0;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Slightly darker shadow */
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-bottom: 2px solid #080808; /* Light border for image separation */
+  }
+  
+  .card-body {
+    padding: 20px;
+    background-color: #f2f6f6; /* White background for the card body */
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #f5f3f3; /* Darker text color for better readability */
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    color: #3e3c3c; /* Slightly darker text for price and rating */
+  }
+  
+  .btn-primary {
+    background-color: #28a745; /* Green background color for the button */
+    border: none;
+    padding: 12px 24px; /* Slightly larger padding for a more prominent button */
+    font-size: 1rem;
+    transition: background-color 0.3s, transform 0.3s;
+  }
+  
+  .btn-primary:hover {
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+  }
+  
+  .trending-card:hover {
+    transform: translateY(-12px); /* Slightly more pronounced hover effect */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* Darker and more prominent shadow */
+  }
+  
+  @media (max-width: 768px) {
+    .card-title {
+      font-size: 1.25rem;
+    }
+  
+    .card-text {
+      font-size: 0.9rem;
+    }
+  
+    .btn-primary {
+      font-size: 0.9rem;
+      padding: 10px 20px; /* Adjusted padding for smaller screens */
+    }
+  }
+  
