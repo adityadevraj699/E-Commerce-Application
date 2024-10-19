@@ -1,14 +1,9 @@
-Here’s a detailed description for your GitHub README file, along with the steps to set up a React + Vite application for **Fashion Hub**, your eCommerce website:
-
----
-
 # Fashion Hub
 
 Welcome to **Fashion Hub**, an eCommerce website built with **React + Vite**, **HTML**, **JavaScript**, and **CSS**. This project is designed for fashion lovers to explore, search, and shop for their favorite outfits with ease. The application is responsive, features dark/light mode, and is optimized for mobile and desktop devices. 
 
 ## Features
 - Fully responsive design
-- Dark/Light mode support
 - Navigation bar with collapsible menu on mobile
 - Hero section with image slider
 - Product listing with filters and search functionality
@@ -72,9 +67,6 @@ npm run preview
 ## Contributing
 Feel free to contribute to the project by submitting a pull request or opening an issue. 
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](#) file for details.
-
 ---
 
 ## Steps to Set Up a React + Vite Application
@@ -121,5 +113,3 @@ npm run build
 This will generate the production-ready files in the `dist` folder.
 
 --- 
-
-With this README, users and contributors will have clear guidance on how to set up and understand your **Fashion Hub** project!
